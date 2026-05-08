@@ -31,9 +31,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-            <span className="text-accent text-xs font-bold font-mono">BS</span>
-          </div>
+          <img src="/logo.png" alt="BotStation" className="w-8 h-8 object-contain" />
           <span className="font-display font-bold text-white tracking-widest text-sm">BOTSTATION</span>
         </Link>
 
